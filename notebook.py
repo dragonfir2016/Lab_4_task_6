@@ -24,7 +24,6 @@ class Note:
         return filter in self.memo or filter in self.tags
 
 
-
 class Notebook:
     '''Represent a collection of notes that can be tagged,
         modified, and searched.'''
